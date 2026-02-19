@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Internship Project</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="left"><span class="time">11:35</span></div>
+        <div class="iphone-iceland"></div>
+        <div class="right">
+          <i class="fa-solid fa-signal"></i>
+          <i class="fa-solid fa-wifi"></i>
+          <i class="fa-solid fa-battery-full"></i>
+        </div>
+      </header>
+      <main>
+        <div class="logo"><span>Your Logo</span></div>
+        <section>
+          <form action="">
+            <h3>Login</h3>
+            <div class="email">
+              <label for="email">Mobile/Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="Login With Mobile or Email"
+              />
+            </div>
+            <div class="forgot-password">
+              <div class="remember">
+                <input type="checkbox" id="remember" name="remember" />
+                <label for="remember">Remember Me</label>
+              </div>
+              <a href="#">Forgot Password?</a>
+            </div>
+            <button class="login" type="submit">Login</button>
+            <span class="or-login-with">Or Login With</span>
+
+            <button class="google" type="button">
+              <i
+                class="fa-brands fa-google"
+                style="color: rgb(16, 27, 36)"
+              ></i
+              >Continue with Google
+            </button>
+          </form>
+          <p>Don't have an account? <a href="#">Sign Up</a></p>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

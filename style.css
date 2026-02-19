@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&family=Noto+Sans+Arabic:wght@100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Unbounded:wght@200..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  width: 430px;
+  height: 932px;
+  margin: 50px auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 40px;
+  overflow: hidden;
+  position: relative;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+header .right i {
+  margin-left: 5px;
+  font-size: 18px;
+  color: #667080;
+}
+header .iphone-iceland {
+  width: 170px;
+  height: 32px;
+  background-color: #ededed;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+header .left span {
+  font-size: 18px;
+  color: #667080;
+  margin-left: 20px;
+}
+
+.logo{
+  width: 216px;
+  height: 152px;
+  background-color: #f3f3f3;
+  border-radius: 50px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo span {
+  font-size: 24px;
+  color: #000;
+  font-weight:600 ;
+  font-style: normal;
+}
+main {
+  padding: 0 15px;
+}
+main h3 {
+  margin-bottom: 20px;
+  color: #333;
+}
+.email{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.email label {
+  margin-bottom: 5px;
+  color: #000;
+  font-size: 15px;
+  font-weight: 400;
+}
+.email input {
+  padding: 12px;
+  border: 1px solid #d5d8de;
+  border-radius: 12px;
+}
+
+.forgot-password{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.forgot-password a {
+  color: #ff445e;
+  text-decoration: none;
+  font-size: 14px;
+}
+.forgot-password a:hover {
+  text-decoration: underline;
+}
+.forgot-password .remember {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  color: #80899a;
+}
+
+main form {
+  display: flex;
+  flex-direction: column;
+}
+
+main form .login {
+  padding: 12px;
+  background-color: #46c2de;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+}
+main form .login:hover {
+  background-color: #0056b3;
+}
+
+.or-login-with {
+  text-align: center;
+  margin: 20px 0;
+  color: #80899a;
+  font-size: 14px;
+  font-weight: 500;
+}
+.or-login-with::before{
+  content: "";
+  display: inline-block;
+  width: 30%;
+  height: 1px;
+  background-color: #ccc;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+.or-login-with::after{
+  content: "";
+  display: inline-block;
+  width: 30%;
+  height: 1px;
+  background-color: #ccc;
+  margin-left: 10px;
+  vertical-align: middle;
+}
+
+
+main form .google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #ccc;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+main form .google:hover {
+  background-color: #f0f0f0;
+}
+main form .google i {
+  margin-right: 10px;
+}
+main p {
+  text-align: center;
+  margin-top: 250px;
+  color:#999ea1;
+  font-size: 14px;
+}
+main p a {
+  color: #46c2de;
+  text-decoration: none;
+}
+main p a:hover {
+  text-decoration: underline;
+}
